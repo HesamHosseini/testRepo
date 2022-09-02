@@ -1,0 +1,163 @@
+@font-face {
+    font-family: IransansWeb;
+    src: url(./IRANSansWeb.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    direction: rtl;
+    width: max-content;
+    font-family: IransansWeb;
+}
+body{
+    background-color:#E5E5E5 ;
+    overflow-x: hidden;
+    
+}
+.containerBGColor{
+    background-color: #ffffff;
+}
+.verticalAlignment{
+    vertical-align: 1.3rem;
+    font-size: 2rem;
+}
+
+.headerBox{
+
+    position: absolute;
+    width: 192rem;
+    height: 8.2rem;
+
+}
+.headerItems{
+    margin: 0 2rem;
+    display: inline-block;
+    
+}
+.icon{
+    margin-top: 2rem;
+}
+.headerLi{
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.login {
+    position: absolute;
+    width: 10rem;
+    height: 4.2rem;
+    left: 17.4rem;
+    top: 2rem;
+    color: #6C41FF;
+    background: #FFFFFF;
+    border: 0.2px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: .8rem;
+    font-size: 2rem;
+}
+
+.signUp{
+    position: absolute;
+    width: 10rem;
+    height: 4.2rem;
+    left: 4rem;
+    top: 2rem;
+    color: #CCCCCC;
+    background-color: #6C41FF;
+    border-radius: .8rem;
+    font-size: 2rem;
+}
+.sideBar{
+    position: absolute;
+    width: 26.6rem;
+    height: 38rem;
+    left: 161rem;
+    top: 11.4rem;
+background: #FFFFFF;
+box-shadow: 0px 00.1rem .2rem 0.05rem rgba(0, 0, 0, 0.25);
+border-radius: .8rem;
+
+}
+.sideBarList{
+    display: inline-block;
+}
+.categories{
+    font-size: 1.1rem;
+list-style-image: url(./practice1Icons/Left\ Chevron.svg);
+padding: 0.35rem 0;
+    
+}
+.sidebar{
+    padding-right: 2.5rem;
+    
+}
+.categoriesHeader{
+    font-size: 2rem;
+    padding: 0.5rem 1rem 0 0;
+}
+.container{
+        position: absolute;
+        width: 155rem;
+        height: 946px;
+        left: 30px;
+        top: 114px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 0.1px 2px 0.5px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+
+}
+
+article{
+    width:150rem ;
+    border: 0.1rem solid #CCCCCC;
+    height: 28rem;
+    border-radius: .8rem;
+    margin: 2.5rem 2.5rem 0 0;
+}
+.contentLogo{
+    float: right;
+    margin: 2rem;
+}
+.contentText{
+    width: 145rem;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    margin-top:  2rem; ;
+}
+.contentTitle{
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: inline;
+}
+.contentDate{
+    display: inline;
+    font-size: 1.6rem;
+    color: #CCCCCC;
+}
+.moreInfo{
+    width: 13rem;
+    height: 4rem;
+    background-color: #6C41FF;
+    color: #ffffff;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    position: relative;
+    right: 135rem;
+    bottom: 3.5rem;
+    border: none
+    /* box-shadow: 0.1rem 0.2rem 0.3rem #6C41FF; */
+
+
+}
+.contentHeaderSprator{
+    height:2px;
+     width:80%; 
+     border-width:0; 
+     color:#ccc; 
+     background-color:#ccc; 
+     height: .1rem;
+}
